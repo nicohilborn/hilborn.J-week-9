@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  color: #222;
+  background-color: #fdfdfd;
+  line-height: 1.7;
+}
+
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+  margin-top: 0;
+}
+
+/* ---------- Hero Section ---------- */
+.hero {
+  height: 60vh;
+  background: linear-gradient(rgba(0, 50, 100, 0.4), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80")
+      center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.hero .overlay {
+  padding: 2rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* ---------- Gradient Section ---------- */
+.gradient-section {
+  background: linear-gradient(to bottom right, #56ccf2, #2f80ed);
+  color: white;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.gradient-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.gradient-section p {
+  max-width: 650px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+.solid-section {
+  background-color: #f5f7fa;
+  color: #333;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.solid-section h2 {
+  color: #2f80ed;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.solid-section p {
+  max-width: 650px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+footer {
+  text-align: center;
+  padding: 1.5rem 1re;
+}
+@media (min-width: 768px) {
+  .hero h1 {
+    font-size: 3rem;
+  }
+  .gradient-section,
+  .solid-section {
+    padding: 6rem 2rem;
+  }
+}
