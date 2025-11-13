@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #222;
   background-color: #fdfdfd;
   line-height: 1.7;
@@ -11,12 +11,10 @@ h2 {
   font-family: "Playfair Display", serif;
   margin-top: 0;
 }
-
-/* ---------- Hero Section ---------- */
 .hero {
   height: 60vh;
   background: linear-gradient(rgba(0, 50, 100, 0.4), rgba(0, 0, 0, 0.5)),
-    url("https://www.pexels.com/photo/green-tree-near-green-plants-142497")
+    url("https://i.postimg.cc/zGmbQ8pz/pexels-mali-142497.jpg")
       center/cover no-repeat;
   display: flex;
   align-items: center;
@@ -31,17 +29,15 @@ h2 {
 
 .hero h1 {
   font-size: 2.5rem;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 
 .hero p {
   font-size: 1.2rem;
   font-weight: 300;
 }
-
-/* ---------- Gradient Section ---------- */
 .gradient-section {
-  background: linear-gradient(to bottom right, #56ccf2, #2f80ed);
+  background: linear-gradient(to bottom right, #337008, #052802);
   color: white;
   text-align: center;
   padding: 4rem 1rem;
@@ -55,7 +51,7 @@ h2 {
 .gradient-section p {
   max-width: 650px;
   margin: 0 auto;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 .solid-section {
   background-color: #f5f7fa;
@@ -65,7 +61,7 @@ h2 {
 }
 
 .solid-section h2 {
-  color: #2f80ed;
+  color: #154e16;
   font-size: 2rem;
   margin-bottom: 1rem;
 }
@@ -73,11 +69,11 @@ h2 {
 .solid-section p {
   max-width: 650px;
   margin: 0 auto;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 footer {
   text-align: center;
-  padding: 1.5rem 1re;
+  padding: 1.5rem 1rem;
 }
 @media (min-width: 768px) {
   .hero h1 {
